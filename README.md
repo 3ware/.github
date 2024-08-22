@@ -1,4 +1,4 @@
-# 3ware Ltd.github repository
+# 3ware Ltd .github repository
 
 The main purpose of this repository is to host the README file for the 3ware GitHub page.
 
