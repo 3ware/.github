@@ -12,10 +12,11 @@ module.exports = {
       "always",
       [
         "commitlint",
+        ".github",
         "pr-check",
         "release",
-        "trunk",
-        "replicate"
+        "replicate",
+        "trunk"
       ],
     ],
     //"signed-off-by": [1, "always", "Signed-off-by:"],
