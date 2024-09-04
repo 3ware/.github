@@ -15,7 +15,6 @@ module.exports = {
         ".github",
         "pr-check",
         "release",
-        "replicate",
         "trunk"
       ],
     ],
