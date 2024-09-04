@@ -10,13 +10,7 @@ module.exports = {
     "scope-enum": [
       1,
       "always",
-      [
-        "commitlint",
-        ".github",
-        "pr-check",
-        "release",
-        "trunk"
-      ],
+      ["commitlint", ".github", "pr-check", "release", "trunk"],
     ],
     //"signed-off-by": [1, "always", "Signed-off-by:"],
     "subject-case": [1, "always", "sentence-case"],
