@@ -1,5 +1,5 @@
-module.exports = {
-  rules: {
+{
+  "rules": {
     "body-leading-blank": [1, "always"],
     "body-max-line-length": [2, "always", 72],
     "footer-leading-blank": [1, "always"],
@@ -7,12 +7,7 @@ module.exports = {
     "header-max-length": [2, "always", 72],
     "scope-case": [2, "always", "lower-case"],
     "scope-empty": [1, "never"],
-    "scope-enum": [
-      1,
-      "always",
-      ["commitlint", ".github", "pr-check", "release", "trunk"],
-    ],
-    //"signed-off-by": [1, "always", "Signed-off-by:"],
+    "scope-enum": [2, "always", ["commitlint", ".github", "pr-check", "trunk"]],
     "subject-case": [1, "always", "sentence-case"],
     "subject-empty": [2, "never"],
     "subject-full-stop": [2, "never", "."],
@@ -21,19 +16,7 @@ module.exports = {
     "type-enum": [
       2,
       "always",
-      [
-        "build",
-        "chore",
-        "ci",
-        "docs",
-        "feat",
-        "fix",
-        "perf",
-        "refactor",
-        "revert",
-        "style",
-        "test",
-      ],
-    ],
-  },
-};
+      ["chore", "ci", "docs", "feat", "fix", "refactor"]
+    ]
+  }
+}
