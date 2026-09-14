@@ -25,3 +25,7 @@ Our work spans cloud platforms, security, networking, Infrastructure as Code and
 ## Find Out More
 
 Visit [www.3ware.co.uk](https://www.3ware.co.uk/) to learn more about 3ware and our services.
+
+---
+
+This profile README is intentionally clear and accessible, following GitHub guidance for [making profile pages easier to read](https://github.blog/2023-10-26-5-tips-for-making-your-github-profile-page-accessible).
