@@ -7,7 +7,7 @@
     "header-max-length": [2, "always", 72],
     "scope-case": [2, "always", "lower-case"],
     "scope-empty": [1, "never"],
-    "scope-enum": [2, "always", ["commitlint", ".github", "pr-check", "trunk"]],
+    "scope-enum": [2, "always", ["commitlint", "profile", "pr-check", "trunk"]],
     "subject-case": [1, "always", "sentence-case"],
     "subject-empty": [2, "never"],
     "subject-full-stop": [2, "never", "."],
