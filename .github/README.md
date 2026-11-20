@@ -4,9 +4,7 @@ This repository hosts the README displayed on the [3ware GitHub organisation pag
 
 ## Contributing
 
-1. Open a pull request using the [pull request template](PULL_REQUEST_TEMPLATE.md).
-2. Changes are reviewed by `@3ware/repo-maintainers`, as defined in [CODEOWNERS](CODEOWNERS).
-3. Run [Trunk](https://trunk.io/) locally to lint your changes before pushing.
+See the [contributing guidelines](CONTRIBUTING.md). Changes are reviewed by `@3ware/repo-maintainers`, as defined in [CODEOWNERS](CODEOWNERS).
 
 ## Security
 
