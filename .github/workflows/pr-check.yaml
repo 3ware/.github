@@ -14,10 +14,10 @@ jobs:
     permissions:
       contents: read
       pull-requests: write # Required by reusable workflow for PR comments
-    uses: 3ware/workflows/.github/workflows/reusable-validate-pr-title.yaml@v5.0.0
+    uses: 3ware/workflows/.github/workflows/reusable-validate-pr-title.yaml@v6.0.0
     secrets:
-      threeware-bot-app-id: ${{ secrets.THREEWARE_RELEASE_APPLICATION_ID }}
-      threeware-bot-private-key: ${{ secrets.THREEWARE_RELEASE_APPLICATION_PRIVATE_KEY }}
+      github-app-id: ${{ secrets.THREEWARE_RELEASE_APPLICATION_ID }}
+      github-app-private-key: ${{ secrets.THREEWARE_RELEASE_APPLICATION_PRIVATE_KEY }}
 
   enforce-all-checks:
     name: Status Checks
@@ -72,7 +72,7 @@ jobs:
         with:
           allowed-authors: 3ware[bot], renovate[bot]
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          max-files-changed: "5"
+          max-files-changed: "10"
           merge-method: squash
           path-filters: .github/gh-actions-lock.version,.github/workflows/**,.trunk/trunk.yaml
           required-labels: auto-merge
