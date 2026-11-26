@@ -13,7 +13,7 @@ jobs:
     name: Trunk Code Quality
     permissions:
       contents: read
-    uses: 3ware/workflows/.github/workflows/reusable-trunk-code-quality.yaml@v5.0.0
+    uses: 3ware/workflows/.github/workflows/reusable-trunk-code-quality.yaml@v6.0.0
     secrets:
-      threeware-bot-app-id: ${{ secrets.THREEWARE_RELEASE_APPLICATION_ID }}
-      threeware-bot-private-key: ${{ secrets.THREEWARE_RELEASE_APPLICATION_PRIVATE_KEY }}
+      github-app-id: ${{ secrets.THREEWARE_RELEASE_APPLICATION_ID }}
+      github-app-private-key: ${{ secrets.THREEWARE_RELEASE_APPLICATION_PRIVATE_KEY }}
